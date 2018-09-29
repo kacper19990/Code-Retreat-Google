@@ -20,8 +20,9 @@ public class GameTest {
         int y = 10;
         Game g = new Game(x, y);
 
-        g.setCell(5, 5, 1);
+        g.setCell(1, 5, 5);
         assertEquals(1, g.getCell(5, 5));
     }
+    
 
 }
