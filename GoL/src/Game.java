@@ -42,11 +42,13 @@ public class Game {
     }
 
     public void updateBoard () {
+        Game g = this;
         for(int i = 0; i < this.xSize; i++){
             for (int j = 0; j < this.ySize; j++) {
-                this.updateCell(i, j);
+                g.updateCell(i, j);
             }
         }
+        this.board = g.board;
     }
 
     public void printBoard () {
