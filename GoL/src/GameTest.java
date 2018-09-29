@@ -44,7 +44,29 @@ public class GameTest {
         g.setCell(1, 5, 5);
         g.setCell(1, 3, 5);
         g.setCell(1, 5, 6);
-        g.UpdateCell(4, 5);
+        g.updateCell(4, 5);
         assertEquals(1, g.getCell(4, 5));
     }
+
+    @Test
+    public void alwaysAlive(){
+        int x = 3;
+        int y = 3;
+        Game g = new Game(x,y);
+
+        g.setCell(1, 1, 0);
+        g.setCell(1, 1, 1);
+        g.setCell(1, 0, 1);
+        g.setCell(1, 0, 0);
+
+        g.updateBoard();
+
+        assertEquals(1, g.getCell(0,0));
+        assertEquals(1, g.getCell(0,1));
+        assertEquals(1, g.getCell(1,0));
+        assertEquals(1, g.getCell(1,1));
+
+    }
+
+
 }

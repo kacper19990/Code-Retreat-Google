@@ -27,7 +27,8 @@ public class Game {
         }
         return count;
     }
-    public void UpdateCell (int x, int y){
+
+    public void updateCell (int x, int y){
         int neighbors = this.getNeighbors(x, y);
         if (neighbors == 2){
             return;
@@ -40,4 +41,28 @@ public class Game {
         }
     }
 
+    public void updateBoard () {
+        for(int i = 0; i < this.xSize; i++){
+            for (int j = 0; j < this.ySize; j++) {
+                this.updateCell(i, j);
+            }
+        }
+    }
+
+    public void printBoard () {
+        for(int i = 0; i < this.xSize; i++){
+            for (int j = 0; j < this.ySize; j++) {
+                System.out.print(this.getCell(i, j) + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args){
+        Game game = new Game(20,20);
+            while (true){
+                game.updateBoard();
+                game.printBoard();
+        }
+    }
 }
