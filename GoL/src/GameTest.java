@@ -23,6 +23,15 @@ public class GameTest {
         g.setCell(1, 5, 5);
         assertEquals(1, g.getCell(5, 5));
     }
-    
 
+
+    @Test
+    public void testNeighbors () {
+        int x = 10;
+        int y = 10;
+        Game g = new Game(x, y);
+
+        g.setCell(1, 5, 5);
+        assertEquals(1, g.getNeighbors(5, 4));
+    }
 }

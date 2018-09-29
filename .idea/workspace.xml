@@ -16,7 +16,7 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/Code_Retreat_Google$GameTest_checkSize.ic" NAME="GameTest.checkSize Coverage Results" MODIFIED="1538228465593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Code_Retreat_Google$GameTest_checkBoard.ic" NAME="GameTest.checkBoard Coverage Results" MODIFIED="1538229342935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Code_Retreat_Google$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1538232707361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Code_Retreat_Google$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1538232992218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Code_Retreat_Google$GameTest_threeNeighbours.ic" NAME="GameTest.threeNeighbours Coverage Results" MODIFIED="1538229453115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageOptionsProvider">
