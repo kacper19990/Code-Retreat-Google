@@ -1,5 +1,0 @@
-package GoL;
-
-class Board{
-
-}

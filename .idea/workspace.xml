@@ -10,6 +10,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Code_Retreat_Google$CellTest_determineState.ic" NAME="CellTest.determineState Coverage Results" MODIFIED="1538223624448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>GoL.*</FILTER>
+    </SUITE>
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -28,63 +33,7 @@
     <favorites_list name="Code-Retreat-Google" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="GameOfLife.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoL/src/GoL/GameOfLife.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoL/src/GoL/Board.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cell.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoL/src/GoL/Cell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-              <folding>
-                <element signature="e#66#67#0" expanded="true" />
-                <element signature="e#100#101#0" expanded="true" />
-                <element signature="e#81#82#0" expanded="true" />
-                <element signature="e#109#110#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CellTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoL/src/GoL/CellTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GoL/src/GoL/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -149,19 +98,6 @@
               <item name="Code-Retreat-Google" type="462c0819:PsiDirectoryNode" />
               <item name="GoL" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Code-Retreat-Google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Code-Retreat-Google" type="462c0819:PsiDirectoryNode" />
-              <item name="GoL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Code-Retreat-Google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Code-Retreat-Google" type="462c0819:PsiDirectoryNode" />
-              <item name="GoL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GoL" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -201,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Arquillian JUnit.CellTest">
+  <component name="RunManager" selected="JUnit.CellTest.determineState">
     <configuration name="GameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoL.GameOfLife" />
       <module name="GoL" />
@@ -210,7 +146,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CellTest" type="ArquillianJUnit" factoryName="" singleton="true" temporary="true" nameIsGenerated="true">
+    <configuration name="CellTest.determineState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GoL" />
       <extension name="coverage">
         <pattern>
@@ -218,48 +154,32 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="GoL" />
-      <option name="MAIN_CLASS_NAME" value="GoL.CellTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CellTest.determineState" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
-      <module name="GoL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GoL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="GoL" />
       <option name="MAIN_CLASS_NAME" value="GoL.CellTest" />
       <option name="METHOD_NAME" value="determineState" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit">
+      <module name="GoL" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="GoL" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -305,14 +225,13 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="Application.GameOfLife" />
-      <item itemvalue="Arquillian JUnit.CellTest.determineState" />
-      <item itemvalue="Arquillian JUnit.CellTest" />
+      <item itemvalue="JUnit.CellTest.determineState" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Arquillian JUnit.CellTest" />
-        <item itemvalue="Arquillian JUnit.CellTest.determineState" />
+        <item itemvalue="JUnit.CellTest.determineState" />
         <item itemvalue="Application.GameOfLife" />
       </list>
     </recent_temporary>
@@ -327,16 +246,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538212740336</updated>
-      <workItem from="1538212744550" duration="9459000" />
+      <workItem from="1538212744550" duration="11479000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CellTest_determineState - 2018.09.29 at 13h 20m 25s.xml">
+      <configuration name="CellTest.determineState" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9459000" />
+    <option name="totallyTimeSpent" value="11479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.32954547" />
@@ -345,7 +268,8 @@
       <window_info anchor="right" id="Maven Projects" weight="0.3295302" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.68607956" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36789772" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Terminal" weight="0.32954547" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.24966443" />
@@ -402,6 +326,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GoL/src/GoL/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GoL/src/GoL/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -409,34 +347,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GoL/src/GoL/CellTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GoL/src/GoL/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="175">
+          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding>
             <element signature="e#66#67#0" expanded="true" />
             <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoL/src/GoL/CellTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoL/src/GoL/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
