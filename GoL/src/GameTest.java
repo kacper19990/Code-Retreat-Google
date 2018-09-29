@@ -4,10 +4,11 @@ import static org.junit.Assert.*;
 
 public class GameTest {
 
+    int x, y;
     @Test
     public void testSet () {
-        int x = 10;
-        int y = 10;
+        x = 10;
+        y = 10;
         Game g = new Game(x, y);
         int expected = x;
 
@@ -16,8 +17,8 @@ public class GameTest {
 
     @Test
     public void testActualSet () {
-        int x = 10;
-        int y = 10;
+        x = 10;
+        y = 10;
         Game g = new Game(x, y);
 
         g.setCell(1, 5, 5);
@@ -27,8 +28,8 @@ public class GameTest {
 
     @Test
     public void testNeighbors () {
-        int x = 10;
-        int y = 10;
+        x = 10;
+        y = 10;
         Game g = new Game(x, y);
 
         g.setCell(1, 5, 5);
@@ -37,8 +38,8 @@ public class GameTest {
 
     @Test
     public void ifAlive(){
-        int x = 10;
-        int y = 10;
+        x = 10;
+        y = 10;
         Game g = new Game(x, y);
 
         g.setCell(1, 5, 5);
@@ -50,8 +51,8 @@ public class GameTest {
 
     @Test
     public void alwaysAlive(){
-        int x = 3;
-        int y = 3;
+        x = 3;
+        y = 3;
         Game g = new Game(x,y);
 
         g.setCell(1, 1, 0);

@@ -17,7 +17,7 @@
     <SUITE FILE_PATH="coverage/Code_Retreat_Google$Game.ic" NAME="Game Coverage Results" MODIFIED="1538233932480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Code_Retreat_Google$GameTest_checkSize.ic" NAME="GameTest.checkSize Coverage Results" MODIFIED="1538228465593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Code_Retreat_Google$GameTest_checkBoard.ic" NAME="GameTest.checkBoard Coverage Results" MODIFIED="1538229342935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Code_Retreat_Google$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1538234843271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Code_Retreat_Google$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1538235024173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Code_Retreat_Google$GameTest_threeNeighbours.ic" NAME="GameTest.threeNeighbours Coverage Results" MODIFIED="1538229453115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageOptionsProvider">
@@ -45,8 +45,8 @@
       <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GoL/src/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="138">
+              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +94,8 @@
         <option value="$PROJECT_DIR$/GoL/src/GoL/Cell.java" />
         <option value="$PROJECT_DIR$/GoL/src/GoL/CellTest.java" />
         <option value="$PROJECT_DIR$/GoL/src/GoL/.travis.yml" />
-        <option value="$PROJECT_DIR$/GoL/src/GameTest.java" />
         <option value="$PROJECT_DIR$/GoL/src/Game.java" />
+        <option value="$PROJECT_DIR$/GoL/src/GameTest.java" />
       </list>
     </option>
   </component>
@@ -121,32 +121,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Code-Retreat-Google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Code-Retreat-Google" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Code-Retreat-Google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Code-Retreat-Google" type="462c0819:PsiDirectoryNode" />
-              <item name="GoL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Code-Retreat-Google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Code-Retreat-Google" type="462c0819:PsiDirectoryNode" />
-              <item name="GoL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -341,20 +316,11 @@
       <option name="presentableId" value="Default" />
       <updated>1538212740336</updated>
       <workItem from="1538212744550" duration="17603000" />
-      <workItem from="1538234725203" duration="240000" />
+      <workItem from="1538234725203" duration="897000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GameTest - 2018.09.29 at 15h 11m 44s.xml">
-      <configuration name="GameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest - 2018.09.29 at 15h 21m 33s.xml">
-      <configuration name="GameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest - 2018.09.29 at 15h 51m 01s.xml">
-      <configuration name="GameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GameTest - 2018.09.29 at 15h 51m 48s.xml">
       <configuration name="GameTest" configurationId="JUnit" />
     </history-entry>
@@ -376,13 +342,21 @@
     <history-entry file="GameTest - 2018.09.29 at 16h 05m 34s.xml">
       <configuration name="GameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GameTest - 2018.09.29 at 16h 25m 34s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.09.29 at 16h 27m 24s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.09.29 at 16h 30m 25s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17843000" />
+    <option name="totallyTimeSpent" value="18500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49932885" weight="0.08806818" />
@@ -391,7 +365,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3295302" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798658" visible="true" weight="0.2599432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798658" weight="0.2599432" />
       <window_info active="true" anchor="right" id="Coverage" order="3" side_tool="true" visible="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.32954547" />
       <window_info id="Designer" order="2" />
@@ -514,8 +488,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GoL/src/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="138">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
