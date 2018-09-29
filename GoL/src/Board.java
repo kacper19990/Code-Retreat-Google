@@ -1,32 +1,41 @@
 import java.util.Random;
+import java.util.logging.SimpleFormatter;
 
-public class Board {
+class Assignment_2{
 
-    int SIZE = 10;
+    public static int SIZE = 25;
 
-    Cell[][] board = new Cell[SIZE][SIZE];
 
-    public void fillBoard(){
+    public static void main(String[] args){
+        int[][] board = new int[SIZE][SIZE];
+
+    }
+
+    private void populateX(int[][] board, int y){
         Random random = new Random();
-        for (int i = 0; i < SIZE - 1; i++){
-            for (int j = 0; j < SIZE; j++) {
-                board[i][j] = new Cell(random.nextBoolean());
-            }
-        }
-    }
-
-    public void printBoard(){
         for (int i = 0; i < SIZE - 1; i++) {
-            System.out.println();
-            for (int j = 0; j < SIZE - 1; j++) {
-                if (board[i][j].isState()){
-                    System.out.print("1 ");
-                }
-                else {
-                    System.out.print("  ");
-                }
-            }
+            board[i][y] = random.nextInt(1);
+        }
+    }
+
+    private void populate(int[][] board){
+        for (int i = 0; i < SIZE - 1; i++) {
+            populateX(board, i);
+        }
+    }
+
+    private boolean outOfBounds(int x, int y){
+        return x > SIZE - 1 || y > SIZE - 1|| x < 0 || y < 0;
+    }
+
+    public void iterate(int[][] board){
+        for (int i=0; i<Math.pow(SIZE, 2); i++){
+
         }
 
     }
+    public int decomposeX(int i){
+
+    }
+
 }
