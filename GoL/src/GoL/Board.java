@@ -1,0 +1,5 @@
+package GoL;
+
+class Board{
+
+}
