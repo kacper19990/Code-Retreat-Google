@@ -11,9 +11,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Code_Retreat_Google$CellTest_determineState.ic" NAME="CellTest.determineState Coverage Results" MODIFIED="1538223624448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Code_Retreat_Google$CellTest_determineState.ic" NAME="CellTest.determineState Coverage Results" MODIFIED="1538228439134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>GoL.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Code_Retreat_Google$GameTest_checkSize.ic" NAME="GameTest.checkSize Coverage Results" MODIFIED="1538228465593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Code_Retreat_Google$GameTest_checkBoard.ic" NAME="GameTest.checkBoard Coverage Results" MODIFIED="1538229342935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Code_Retreat_Google$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1538230892018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Code_Retreat_Google$GameTest_threeNeighbours.ic" NAME="GameTest.threeNeighbours Coverage Results" MODIFIED="1538229453115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -33,13 +40,45 @@
     <favorites_list name="Code-Retreat-Google" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoL/src/GameTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="95" column="16" lean-forward="true" selection-end-line="115" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoL/src/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+              <folding>
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -60,6 +99,8 @@
         <option value="$PROJECT_DIR$/GoL/src/GoL/Cell.java" />
         <option value="$PROJECT_DIR$/GoL/src/GoL/CellTest.java" />
         <option value="$PROJECT_DIR$/GoL/src/GoL/.travis.yml" />
+        <option value="$PROJECT_DIR$/GoL/src/Game.java" />
+        <option value="$PROJECT_DIR$/GoL/src/GameTest.java" />
       </list>
     </option>
   </component>
@@ -98,6 +139,12 @@
               <item name="Code-Retreat-Google" type="462c0819:PsiDirectoryNode" />
               <item name="GoL" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Code-Retreat-Google" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Retreat-Google" type="462c0819:PsiDirectoryNode" />
+              <item name="GoL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -119,6 +166,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
       <recent name="GoL" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -137,28 +185,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CellTest.determineState">
-    <configuration name="GameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoL.GameOfLife" />
-      <module name="GoL" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.GameTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CellTest.determineState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GoL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GoL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="GoL" />
-      <option name="MAIN_CLASS_NAME" value="GoL.CellTest" />
-      <option name="METHOD_NAME" value="determineState" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GameTest.checkBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoL" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="checkBoard" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GameTest.checkSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoL" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="checkSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GameTest.threeNeighbours" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoL" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="threeNeighbours" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -170,10 +258,10 @@
       <patterns />
     </configuration>
     <configuration name="Unnamed" type="JUnit" factoryName="JUnit">
-      <module name="GoL" />
+      <module name="Code-Retreat-Google" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="GoL" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -226,13 +314,17 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="Application.GameOfLife" />
-      <item itemvalue="JUnit.CellTest.determineState" />
+      <item itemvalue="JUnit.GameTest.checkSize" />
+      <item itemvalue="JUnit.GameTest.checkBoard" />
+      <item itemvalue="JUnit.GameTest" />
+      <item itemvalue="JUnit.GameTest.threeNeighbours" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CellTest.determineState" />
-        <item itemvalue="Application.GameOfLife" />
+        <item itemvalue="JUnit.GameTest" />
+        <item itemvalue="JUnit.GameTest.threeNeighbours" />
+        <item itemvalue="JUnit.GameTest.checkBoard" />
+        <item itemvalue="JUnit.GameTest.checkSize" />
       </list>
     </recent_temporary>
   </component>
@@ -246,38 +338,66 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538212740336</updated>
-      <workItem from="1538212744550" duration="11479000" />
+      <workItem from="1538212744550" duration="14923000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CellTest_determineState - 2018.09.29 at 13h 20m 25s.xml">
-      <configuration name="CellTest.determineState" configurationId="JUnit" />
+    <history-entry file="GameTest_threeNeighbours - 2018.09.29 at 14h 57m 34s.xml">
+      <configuration name="GameTest.threeNeighbours" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.09.29 at 14h 57m 44s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.09.29 at 14h 58m 07s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.09.29 at 15h 07m 24s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.09.29 at 15h 08m 07s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.09.29 at 15h 08m 45s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.09.29 at 15h 09m 37s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.09.29 at 15h 10m 50s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.09.29 at 15h 11m 44s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.09.29 at 15h 21m 33s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11479000" />
+    <option name="totallyTimeSpent" value="14923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.08806818" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" weight="0.3295302" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36789772" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16619319" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Terminal" weight="0.32954547" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49688473" visible="true" weight="0.24966443" />
       <window_info anchor="right" id="Database" weight="0.3295302" />
-      <window_info id="Structure" order="1" sideWeight="0.50211865" side_tool="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" sideWeight="0.50311524" side_tool="true" visible="true" weight="0.24966443" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info id="Favorites" sideWeight="0.50211865" side_tool="true" weight="0.24966443" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -285,6 +405,31 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.16619319" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.24966443" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49788135" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="3" sideWeight="0.50211865" side_tool="true" weight="0.24966443" />
+      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39914772" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.3295302" />
+      <window_info anchor="right" id="Database" order="1" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32954547" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32954547" />
+      <window_info active="true" anchor="right" id="Coverage" order="3" side_tool="true" visible="true" weight="0.3295302" />
+      <window_info id="Favorites" order="1" sideWeight="0.50211865" side_tool="true" weight="0.24966443" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -301,6 +446,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -361,6 +511,40 @@
           <folding>
             <element signature="e#66#67#0" expanded="true" />
             <element signature="e#100#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoL/src/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoL/src/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="95" column="16" lean-forward="true" selection-end-line="115" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
