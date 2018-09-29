@@ -34,4 +34,17 @@ public class GameTest {
         g.setCell(1, 5, 5);
         assertEquals(1, g.getNeighbors(5, 4));
     }
+
+    @Test
+    public void ifAlive(){
+        int x = 10;
+        int y = 10;
+        Game g = new Game(x, y);
+
+        g.setCell(1, 5, 5);
+        g.setCell(1, 3, 5);
+        g.setCell(1, 5, 6);
+        g.UpdateCell(4, 5);
+        assertEquals(1, g.getCell(4, 5));
+    }
 }

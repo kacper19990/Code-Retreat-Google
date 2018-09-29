@@ -1,5 +1,4 @@
-public class Game
-{
+public class Game {
 
     int[][] board;
     int xSize, ySize;
@@ -11,7 +10,7 @@ public class Game
         this.board = new int[x][y];
     }
 
-    public int getCell(int x, int y){
+    public int getCell(int x, int y) {
         return this.board[x][y];
     }
 
@@ -19,13 +18,26 @@ public class Game
         this.board[x][y] = value;
     }
 
-    public int getNeighbors(int x, int y){
+    public int getNeighbors(int x, int y) {
         int count = 0;
-        for(int i = x -1; i < x + 2; i++){
-            for(int j = y - 2; j < y+2; j++){
-                if (i > -1 && j > -1 && i < this.xSize && j < this.ySize ) count+= this.getCell(i, j);
+        for (int i = x - 1; i < x + 2; i++) {
+            for (int j = y - 2; j < y + 2; j++) {
+                if (i > -1 && j > -1 && i < this.xSize && j < this.ySize) count += this.getCell(i, j);
             }
         }
         return count;
     }
+    public void UpdateCell (int x, int y){
+        int neighbors = this.getNeighbors(x, y);
+        if (neighbors == 2){
+            return;
+        }
+        else if (neighbors == 3){
+            this.setCell(1, x, y);
+        }
+        else {
+            this.setCell(0, x, y);
+        }
+    }
+
 }
