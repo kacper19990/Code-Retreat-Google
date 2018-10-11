@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Code-Retreat-Google.iml" filepath="$PROJECT_DIR$/Code-Retreat-Google.iml" />
       <module fileurl="file://$PROJECT_DIR$/GoL/GoL.iml" filepath="$PROJECT_DIR$/GoL/GoL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trie Data Structure/Trie Data Structure.iml" filepath="$PROJECT_DIR$/Trie Data Structure/Trie Data Structure.iml" />
     </modules>
   </component>
 </project>
